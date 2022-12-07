@@ -1,0 +1,53 @@
+.sidebar-area ul.side-nav > li > a {
+    line-height: 21px;
+    padding: 10px 0px 10px 5px;
+}
+
+.footer-text {
+    background-position: left top;
+    margin: 10px 0;
+    line-height: 18px;
+}
+
+.footer-block li.footer-text:last-child {
+    margin-bottom: 0;
+}
+
+.footer-block {
+    justify-content: initial;
+}
+
+.content-between .single-footer-widget ul li a {
+    display: block;
+    line-height: inherit;
+    font-size: inherit;
+}
+
+.header-subtitle {
+    font-size: inherit;
+}
+
+.footer-title, .footer-logo {
+    font-size: 1.2em;
+    line-height: 20px;
+}
+
+.footer-logo {
+    justify-content: initial;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-info {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-info {
+        margin-top: 20px;
+    }
+
+    .footer-title {
+        margin-top: 20px;
+    }
+}
